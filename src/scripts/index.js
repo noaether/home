@@ -1,5 +1,3 @@
-import 'highlight.js/styles/default.css';
-
 import './autos';
 import './functions';
 
@@ -18,7 +16,7 @@ if (document.title == 'Noa St-Onge | Home') {
         const title = detail.getAttribute('id');
         const summary = detail.querySelector('summary').innerHTML;
 
-        blogPosts.innerHTML += `<li><a href="blog.html#${title}">${summary}</a></li>`;
+        blogPosts.innerHTML += `<li><a href="blog#${title}">${summary}</a></li>`;
       });
     });
 }

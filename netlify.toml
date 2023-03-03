@@ -4,7 +4,35 @@
   functions = "netlify/functions"
   publish = "dist"
 
-  [dev]
-    command = "npm run dev" # Command to start your dev server
-    port = 1234 # Port that the dev server will be listening on
-    publish = "dist" # Folder with the static content for _redirect file
+[dev]
+  command = "npm run dev" # Command to start your dev server
+  port = 1234 # Port that the dev server will be listening on
+  publish = "dist" # Folder with the static content for _redirect file
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Headers = "Authorization"
+    Access-Control-Allow-Methods = "GET"
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/projects"
+  to = "/projects.html"
+  status = 200
+
