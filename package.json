@@ -2,12 +2,13 @@
   "name": "home",
   "version": "1.0.0",
   "description": "noae.ca hopefully",
-  "source": "src/index.html",
+  "source": "src/parcel.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/**/*.html",
+    "dev": "parcel src/**.html ",
     "build": "parcel build src/**/*.html",
-    "prettier": "prettier --write \"src/**/*.html\""
+    "prettier": "prettier --write \"src/**/*\"",
+    "deploy": "rm -rf ./dist/ && npm run prettier && npm run build && netlify deploy --prod ./dist/"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,10 @@
   },
   "homepage": "https://github.com/noaether/home#readme",
   "devDependencies": {
+    "@parcel/compressor-brotli": "^2.8.3",
+    "@parcel/compressor-gzip": "^2.8.3",
+    "markdown-it-highlightjs": "^4.0.1",
     "parcel": "^2.8.3",
-    "path-browserify": "^1.0.1",
-    "prettier": "^2.8.4",
-    "process": "^0.11.10"
+    "prettier": "^2.8.4"
   }
 }
