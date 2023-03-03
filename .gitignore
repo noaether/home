@@ -1,0 +1,10 @@
+node_modules/
+# Local Netlify folder
+.netlify
+# Log files
+*.log
+
+.parcel-cache
+.cache
+
+dist

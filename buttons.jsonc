@@ -1,0 +1,20 @@
+{
+  "buttons": [
+    {
+      "name": "dev 🐛",
+      "script": "npm run dev"
+    },
+    {
+      "name": "prod 🚀",
+      "script": "npm run build"
+    },
+    {
+      "name": "netlify dev 🌐",
+      "script": "npm "
+    },
+    {
+      "name": "prettify 🦋",
+      "script": "npm run prettier"
+    }
+  ]
+}

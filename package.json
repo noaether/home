@@ -1,0 +1,28 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "noae.ca hopefully",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/**/*.html",
+    "build": "parcel build src/**/*.html",
+    "prettier": "prettier --write \"src/**/*.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noaether/home.git"
+  },
+  "author": "noaether",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/noaether/home/issues"
+  },
+  "homepage": "https://github.com/noaether/home#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "path-browserify": "^1.0.1",
+    "prettier": "^2.8.4",
+    "process": "^0.11.10"
+  }
+}
