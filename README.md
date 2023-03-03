@@ -2,14 +2,17 @@
 
 This is the source code for my personal website, which contains my portfolio, blog posts, and contact information.
 
-Table of Contents
-Technologies
-Getting Started
-Folder Structure
-Scripts
-Deployment
-Contributing
-License
+## Table of Contents
+
+- [Noae's Website](#noaes-website)
+  - [Table of Contents](#table-of-contents)
+  - [Technologies](#technologies)
+  - [Getting Started](#getting-started)
+  - [Folder Structure](#folder-structure)
+  - [Scripts](#scripts)
+  - [Deployment](#deployment)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Technologies
 
