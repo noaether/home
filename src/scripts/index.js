@@ -21,10 +21,6 @@ if (document.title == 'Noa St-Onge | Home') {
     });
 }
 
-if (document.title == 'Noa St-Onge | Blog') {
-  import('./blog.js');
-}
-
-if (document.title == 'Noa St-Onge | Projects') {
+/* if (document.title == 'Noa St-Onge | Projects') {
   import('./projects.js');
-}
+} */
