@@ -6,11 +6,11 @@
   margin: 2rem 0;
 }
 
-.date {
+date {
   color: var(--text-light);
   font-weight: 600;
   margin-bottom: 1rem;
-  margin-top: -1rem;
+  margin-top: -2rem;
 }
 
 /* simplecss.org */
@@ -111,7 +111,8 @@ h4 {
 h5 {
   font-size: 1.15rem;
 }
-h6 {
+h6,
+date {
   font-size: 0.96rem;
 }
 h1,
@@ -120,7 +121,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+date {
   overflow-wrap: break-word;
 }
 h1,
